@@ -25,7 +25,7 @@ else if(unit<=300)
 }
 else
 {
-    bill=bill = (100 * 5) + (100 * 7) + (100 * 10) + ((unit - 300) * 12);
+    bill = (100 * 5) + (100 * 7) + (100 * 10) + ((unit - 300) * 12);
     printf("Bill=%d",bill);
 }
 return 0;
