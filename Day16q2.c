@@ -6,13 +6,13 @@ int main() {
     scanf("%d", &n);
     original = n;
     while (n > 0)
-    {                              // Reversing the digits of the number
+    {                              
         remainder = n % 10;
         reversed = reversed * 10 + remainder;
         n /= 10;
     }
     if (original == reversed)
-    {                  // Checking if the original number is equal to the reversed number
+    {                  
         printf("Palindrome\n");
     } 
     else 
