@@ -5,13 +5,14 @@ int main() {
     printf("Enter a Number:");
     scanf("%d",&n);
     if (n == 0)
-    {                        // Special case for 0
+    {                        
         printf("0\n");
         return 0;
     }
     long long binary = 0;
     long long place = 1;
-    while (n > 0){                      // Converting decimal to binary
+    while (n > 0)
+    {                      
         int rem = n % 2;
         binary += rem * place;          
         place *= 10;                    
